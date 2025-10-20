@@ -14,6 +14,7 @@
 
 ## Структура проєкту
 swapbooks/
+
 ├── index.html # Головна сторінка
 
 ├── catalog.html # Каталог книг
@@ -25,11 +26,14 @@ swapbooks/
 │
 
 ├── /css
-│ └── style.css 
 │
+
 ├── /js
-│ └── main.js 
+│ 
+
+
 │
+
 └── /images # Зображення
 
 ---
