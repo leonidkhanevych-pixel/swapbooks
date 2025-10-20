@@ -23,14 +23,9 @@ swapbooks/
 
 ├── contacts.html # Контакти
 
-│
-
 ├── /css
-│
 
 ├── /js
-│ 
-
 
 │
 
