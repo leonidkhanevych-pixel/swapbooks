@@ -15,10 +15,15 @@
 ## Структура проєкту
 swapbooks/
 ├── index.html # Головна сторінка
+
 ├── catalog.html # Каталог книг
+
 ├── about.html # Про нас
+
 ├── contacts.html # Контакти
+
 │
+
 ├── /css
 │ └── style.css 
 │
