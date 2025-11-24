@@ -1,0 +1,54 @@
+/* Стилі форм */
+form {
+  background: white;
+  padding: 20px;
+  border-radius: var(--radius);
+  border: 1px solid #ddd;
+  max-width: 500px;
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+input, textarea, select {
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  font-size: 16px;
+  border-radius: var(--radius);
+  border: 1px solid #bbb;
+  transition: var(--transition);
+}
+
+input:focus, textarea:focus, select:focus {
+  border-color: var(--accent);
+  outline: none;
+}
+
+/* Кнопки */
+button {
+  margin-top: 15px;
+  background: var(--primary);
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: var(--radius);
+  cursor: pointer;
+  transition: var(--transition);
+}
+button:hover {
+  background: var(--accent);
+}
+
+/* Валідація HTML5 */
+input:invalid, textarea:invalid {
+  border-color: red;
+}
+
+input:valid, textarea:valid {
+  border-color: green;
+}

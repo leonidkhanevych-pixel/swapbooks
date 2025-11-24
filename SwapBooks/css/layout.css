@@ -1,0 +1,57 @@
+/* Контейнер */
+main, header, footer, section {
+  max-width: 1000px;
+  margin: auto;
+  padding: 20px;
+}
+
+/* Навігація */
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  padding: 0;
+}
+nav a {
+  font-weight: bold;
+}
+nav a:hover {
+  color: var(--accent);
+}
+
+/* Бургер-меню */
+.burger {
+  display: none;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    display: none;
+    background: var(--light);
+    padding: 10px;
+    border-radius: var(--radius);
+  }
+
+  nav ul.active {
+    display: flex;
+  }
+
+  .burger {
+    display: block;
+  }
+}
+
+/* Каталог книг */
+.book-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+}
+
+.book-list img {
+  width: 100%;
+  border-radius: var(--radius);
+}
