@@ -3,9 +3,13 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SwapBooks – обмінюйся книгами безкоштовно</title>
   <link rel="stylesheet" href="css/style.css">
+  <title>SwapBooks – обмінюйся книгами безкоштовно</title>
 </head>
+
+<header>
+  <div class="burger">☰</div> 
+
 <body>
   <header>
     <nav>
@@ -39,5 +43,17 @@
   <footer>
     <p>SwapBooks</p>
   </footer>
+  
+  <script>
+document.addEventListener("DOMContentLoaded", () => {
+  const burger = document.querySelector(".burger");
+  const menu = document.querySelector("nav ul");
+
+  burger.addEventListener("click", () => {
+    menu.classList.toggle("active");
+  });
+});
+</script>
+
 </body>
 </html>
