@@ -7,11 +7,9 @@
   <title>SwapBooks – обмінюйся книгами безкоштовно</title>
 </head>
 
-<header>
-  <div class="burger">☰</div> 
-
 <body>
   <header>
+    <div class="burger">☰</div>
     <nav>
       <ul>
         <li><a href="index.html">Головна</a></li>
@@ -23,8 +21,12 @@
   </header>
 
   <main>
+    <button class="change-theme">Змінити тему</button>
+
     <section>
       <h1>Ласкаво просимо до SwapBooks</h1>
+      <p class="highlight">SwapBooks — найпростіший спосіб обмінятися книгами.</p>
+
       <p>SwapBooks – це онлайн-платформа для безкоштовного обміну книгами між читачами. 
       Знаходь цікаву літературу, якою діляться інші, або віддавай свої книги новим власникам!</p>
       <img src="images/banner.jpg" alt="Обмін книгами — SwapBooks" width="600">
@@ -38,22 +40,15 @@
         <li>Підтримуй природу та давай книгам другий шанс!</li>
       </ul>
     </section>
+
+    <button class="show-more">Показати більше</button>
+    <p class="hidden-text">Цей текст прихований і з'явиться після натискання кнопки.</p>
   </main>
 
   <footer>
     <p>SwapBooks</p>
   </footer>
-  
-  <script>
-document.addEventListener("DOMContentLoaded", () => {
-  const burger = document.querySelector(".burger");
-  const menu = document.querySelector("nav ul");
 
-  burger.addEventListener("click", () => {
-    menu.classList.toggle("active");
-  });
-});
-</script>
-
+  <script src="js/main.js"></script>
 </body>
 </html>
