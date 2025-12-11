@@ -1,3 +1,38 @@
 @import url('base.css');
 @import url('layout.css');
 @import url('components.css');
+
+.dark-theme {
+  background-color: #222;
+  color: #fff;
+}
+
+
+.dark-theme a {
+  color: #9cf;
+}
+
+button {
+  background-color: #008cff;
+  color: white;
+  padding: 10px 16px;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+  margin: 10px 0;
+}
+
+button:hover {
+  background-color: #006ad1;
+}
+
+.dark-theme button {
+  background-color: #444;
+  color: #fff;
+}
+
+.dark-theme button:hover {
+  background-color: #666;
+}
+
